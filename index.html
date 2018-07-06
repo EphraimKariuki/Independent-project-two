@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href= "css/bootstrap.css" rel= "stylesheet" type= "text/css">
-    <link href= "css/styles.css" rel = "stylesheet" type= "text/css">
-    <script src= "js/jquery-3.3.1.min.js"></script>
-    <script src = "js/styles.js"></script>
+    <link href= "assets/css/bootstrap.css" rel= "stylesheet" type= "text/css">
+    <link href= "assets/css/styles.css" rel = "stylesheet" type= "text/css">
+    <script src= "assets/js/jquery-3.3.1.min.js"></script>
+    <script src = "assets/js/styles.js"></script>
     <title>Anita's Kitchen</title>
   </head>
   <body>
     <div class ="container">
-      <div class= "jumbotron">
-
+      <div class= "row" id= "introduction">
+        <button type= "buttom" id="btnMenu"></button>
+        <div id= "companyIntro">
+          <img src="assets/images/logoBig.png">
+          <p class= "pIntro">We Provide The Best Food</p>
+          <p class= "pIntro">At The Right Price</p>
+        </div>
+      </div>
+      <div class= "row" class= "menuPreview">
+        <div class ="col-md-3" id= "menuPreviewTm">
+          <p>Happy Hour</p>
+          <p>Party Time</p>
+        </div>
+        <div class= "col-md-3" id= "menuPreviewBr" >
+          <p>Breakfast</p>
+        </div>
+        <div class = "col-md-3" id= "menuPreviewLn">
+          <p>Lunch</p>
+        </div>
+        <div class = "col-md-3" id= "menuPreviewDn">
+          <p>Dinner</p>
+        </div>
       </div>
     </div>
   </body>
