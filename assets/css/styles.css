@@ -1,6 +1,8 @@
 
 #introduction {
   background-image: url("../../assets/images/backgrounds/landing.jpg");
+  text-align: center;
+
 }
 #btnMenu {
   background-color:#ed6a40;
@@ -14,8 +16,10 @@
   margin: 20px 100px 200px
 
 }
-.pIntro {
+.companyIntro {
   text-align: center;
+  margin:auto;
+}
 
 }
 #rowPreviewBr {
@@ -34,5 +38,5 @@
   background-color: #EDEDED;
 }
 #cardTxtColRowDescriptionDnk {
-  
+
 }
