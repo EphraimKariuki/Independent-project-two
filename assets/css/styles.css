@@ -1,4 +1,25 @@
 
+.jumbotron {
+  background-image: url("../../assets/images/backgrounds/foodsBg.jpg");
+  margin: inherit;
+}
+.nav {
+  background-color: white;
+  padding:30px;
+
+}
+.img2NavBar {
+  float:right;
+}
+.img3NavBar {
+
+}
+.p3NavBar {
+  text-align:center;
+}
+.p4NavBar {
+  float: right;
+}
 #introduction {
   background-image: url("../../assets/images/backgrounds/landing.jpg");
   text-align: center;
@@ -20,6 +41,9 @@
   text-align: center;
   margin:auto;
 }
+.imgNavBar {
+  padding: 30px;
+}
 
 }
 #rowPreviewBr {
@@ -37,6 +61,10 @@
 #rowPreviewTm {
   background-color: #EDEDED;
 }
-#cardTxtColRowDescriptionDnk {
+#cardColRowNavBar{
+  margin:30px;
 
+}
+#colRowNavBar {
+  background-image: url("../../assets/images/backgrounds/foodsBg.jpg");
 }
