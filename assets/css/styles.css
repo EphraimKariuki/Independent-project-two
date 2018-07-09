@@ -20,9 +20,27 @@
 .p4NavBar {
   float: right;
 }
+.companyIntro {
+  text-align: center;
+  margin:auto;
+}
+.imgNavBar {
+  padding: 30px;
+}
+.pIntro {
+  color: white;
+  font-size: 28px;
+  font-family:'Markazi Text', serif;
+}
+.pWhite {
+  color: white;
+  margin-top: 20%
+}
+
 #introduction {
   background-image: url("../../assets/images/backgrounds/landing.jpg");
   text-align: center;
+  font-family:'Markazi Text', serif;
 
 }
 #btnMenu {
@@ -35,20 +53,14 @@
   display: inline-block;
   font-size: 16px;
   margin: 20px 100px 200px
-
-}
-.companyIntro {
-  text-align: center;
-  margin:auto;
-}
-.imgNavBar {
-  padding: 30px;
-}
-
 }
 #rowPreviewBr {
   background-image: url("../../assets/images/foodtop/breakfast.jpg");
-  align-content: center;
+  text-align: center;
+}
+#rowPreviewBr: hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
 }
 #rowPreviewLn {
   background-image: url("../../assets/images/foodtop/lunch.jpg");
@@ -60,6 +72,48 @@
 }
 #rowPreviewTm {
   background-color: #EDEDED;
+  padding:0px;
+
+}
+#picColRowDescriptionFd {
+  padding: 20px;
+}
+#txtColRowDescriptionFd {
+  padding: 20px;
+}
+#CardpicColFdRowDescription {
+  border-width: 2px;
+  padding: 10px;
+}
+#cardTxtColRowDescriptionFd {
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+#btnViewMenuFD {
+  background-color:#ed6a40;
+  borde: none;
+  color:white;
+  padding:20px ;
+  text-align: center;
+  text-decoration:underline;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 100px 200px
+}
+.pHappyHour {
+  text-align: center;
+  padding: 10px;
+}
+.pPartyTime {
+  background-color:#F15A29;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.pPartyTime: hover {
+
 }
 #cardColRowNavBar{
   margin:30px;
