@@ -1,4 +1,9 @@
-
+h3 {
+  color: #F15A29;
+}
+.txtOrenge {
+  color: #F15A29;
+}
 .jumbotron {
   background-image: url("../../assets/images/backgrounds/foodsBg.jpg");
   margin: inherit;
@@ -27,6 +32,9 @@
 .imgNavBar {
   padding: 30px;
 }
+.centerAlign {
+  text-align: center;
+}
 .pIntro {
   color: white;
   font-size: 28px;
@@ -34,7 +42,10 @@
 }
 .pWhite {
   color: white;
-  margin-top: 20%
+}
+#rowFooter {
+  background-color:#ed6a40;
+  text-align: center;
 }
 
 #introduction {
@@ -75,6 +86,11 @@
   padding:0px;
 
 }
+#rowCustomer {
+  padding: 100px;
+}
+#rowNavbar {
+}
 #picColRowDescriptionFd {
   padding: 20px;
 }
@@ -82,23 +98,22 @@
   padding: 20px;
 }
 #CardpicColFdRowDescription {
-  border-width: 2px;
-  padding: 10px;
+  border: 2px solid #EDEDED;
+
 }
 #cardTxtColRowDescriptionFd {
   padding-top: 10px;
   margin-bottom: 50px;
 }
 #btnViewMenuFD {
-  background-color:#ed6a40;
   borde: none;
-  color:white;
-  padding:20px ;
+  color:#F15A29;
+  padding:1px ;
   text-align: center;
-  text-decoration:underline;
+  text-decoration:none;
   display: inline-block;
   font-size: 16px;
-  margin: 20px 100px 200px
+  margin: 20px 0px 20px 20px
 }
 .pHappyHour {
   text-align: center;
@@ -106,19 +121,25 @@
 }
 .pPartyTime {
   background-color:#F15A29;
-  margin-top:0px;
-  margin-bottom:0px;
-  padding: 10px;
   color: white;
   text-align: center;
+  margin-bottom: 0;
+  padding: 10px;
 }
-.pPartyTime: hover {
-
+.uniformSixe: hover {
+ padding: 100px;
 }
 #cardColRowNavBar{
-  margin:30px;
+  margin:100px;
+  background-color: white;
 
 }
 #colRowNavBar {
   background-image: url("../../assets/images/backgrounds/foodsBg.jpg");
+}
+#colSubscribe {
+  background-image: url("../../assets/images/backgrounds/subscribe.jpg");
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }

@@ -8,7 +8,7 @@
     <title>Anita's Kitchen</title>
   </head>
   <body>
-    <div class ="container">
+    <!-- <div class ="container"> -->
       <div class= "row" id= "introduction">
         <!-- <button type= "buttom" id="btnMenu"></button> -->
         <div class= "companyIntro">
@@ -22,7 +22,7 @@
           <p class= "pHappyHour">Happy Hour</p>
           <p class="pPartyTime">Party Time</p>
         </div>
-        <div class= "col-md-3" id= "rowPreviewBr" >
+        <div class= "col-md-3 uniformSize" id= "rowPreviewBr" >
           <p class="pWhite">Breakfast</p>
         </div>
         <div class = "col-md-3" id= "rowPreviewLn">
@@ -59,24 +59,34 @@
         </div>
         <div class= "col-md-6" id="picColRowDescriptionDnk">
           <div class= "card" id="cardPicColRowDescriptionDnk">
-            <img src="assets/images/drinks/drink1.jpg" id= "imgCardPicColRowDescriptionDnk">
+            <img src="assets/images/drinks/drink1.jpg" id= "imgCardPicColRowDescriptionDnk"><img src= "assets/images/drinks/drink2.jpg">
           </div>
         </div>
       </div>
       <div class= "row" id= "rowNavbar">
         <div class= "col-md-12" id= "colRowNavBar">
           <div class= "card" id= "cardColRowNavBar">
-            <ul class= "nav nav-tabs">
-              <li class="active"><a href= "#navFd">Fast foods</a></li>
-              <li><a href= "navDnk">Drinks</a></li>
-              <li><a href="navChk">Chicken</a></li>
-              <li><a href= "navRice">Rice</a></li>
-            </ul>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="navFd">Fast Food</a></li>
+                <li><a href="#navDnk">Drinks</a></li>
+                <li><a href="#navChk">Chicken</a></li>
+                <li><a href="#navRice">Rice</a></li>
+              </ul>
             <div id= "navFd">
-              <p class= "p1NavBar"><img src= "assets/images/fastfood/chickenPizza.jpg" class= "imgNavBar"><img src= "assets/images/fastfood/beefBurger.jpg" class= "imgNavBar"><img src= "assets/images/fastfood/chickenBurger.jpg" class= "imgNavBar"></p>
-              <p class= "p2NavBar">Chicken Burger</p>
-              <p class= "p3NavBar">Beef Burger</p>
-              <p class= "p4NavBar">Chicken pizza</p>
+              <div class= "row">
+                <div class ="col-md-4 centerAlign">
+                    <img src= "assets/images/fastfood/beefBurger.jpg" class= "imgNavBar">
+                    <p class= "txtOrenge">Beef Burger</p>
+                </div>
+                <div class= "col-md-4 centerAlign">
+                  <img src= "assets/images/fastfood/chickenBurger.jpg" class= "imgNavBar">
+                  <p class= "txtOrenge">Chicken Burger</p>
+                </div>
+                <div class= "col-md-4 centerAlign">
+                  <img src= "assets/images/fastfood/chickenPizza.jpg" class= "imgNavBar">
+                  <p class= "txtOrenge">Chicken pizza</p>
+                </div>
+              </div>
             </div>
             <div id= "navDnk"></div>
             <div id= "navChk"></div>
@@ -84,19 +94,38 @@
           </div>
         </div>
       </div>
-      <div class= "row">
+      <div class= "row" id= "rowCustomer">
         <div class= "col-md-6">
             <div class= "card">
-              <h1>Our Happy Customer</h2>
-              <h2>George Richard</h2>
-              <p>Great food! Menu is awesome, thier foods are not only great but also in the right price. I'll highly recommend them.</>
+                  <h3>Our Happy Customer</h3>
+                  <h4>George Richard</h4>
+                  <p>Great food! Menu is awesome, thier foods are not only great but also in the right price. I'll highly recommend them.</>
             </div>
         </div>
         <div class= "col-md-6">
             <div class= "card">
-              <h1>About Menu</h1>
+              <h3>About Menu</h3>
               <p>We are a litle team of seven members. Ut wisihfncccx dsjdsjjdaj hdjdsjdjdsajjdsaj dsjdsccdjjds </p>
             </div>
+        </div>
+      </div>
+      <div class= "row">
+        <div class= "col-md-12" id="colSubscribe">
+            <p class= "pWhite">Get our daily food delivery to your email</p>
+            <form action="/action_page.php">
+              <div class= "form-inline">
+                <input type="email" class="form-control" id="email">
+                <button type "submit" class= "subscribe">Subscribe</button>
+              </div>
+            </form>
+        </div>
+      </div>
+      <div class= "row" id= "rowFooter">
+        <div class= "col-md-12">
+          <p class= "pWhite"><img src= "assets/images/footerlogos/logo_white.png">MENU</p>
+          <p class= "pWhite">Thats What We are</p>
+          <p><img src= "assets/images/footerlogos/facebook.png"><img src= "assets/images/footerlogos/twitter.png"><img src= "assets/images/footerlogos/twitter.png"></p>
+          <p class="pWhite">2016 Menu Restaurant</P>
         </div>
       </div>
     </div>
